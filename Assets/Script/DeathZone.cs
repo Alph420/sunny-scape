@@ -22,6 +22,7 @@ public class DeathZone : MonoBehaviour
             StartCoroutine(ReplacePlayerInScene(collision));
         }
     }
+    //Coroutine for the transition
     public IEnumerator ReplacePlayerInScene(Collider2D collision)
     {
         fadeSystem.SetTrigger("FadeIn");
